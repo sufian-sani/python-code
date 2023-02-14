@@ -1,0 +1,47 @@
+map() function returns a map object(which is an iterator) of the results after applying the given function to each item of a given iterable (list, tuple etc.)
+
+Syntax :
+
+map(fun, iter)
+Parameters :
+
+fun : It is a function to which map passes each element of given iterable.
+iter : It is a iterable which is to be mapped.
+
+exp:
+# Python program to demonstrate working 
+# of map. 
+
+# Return double of n 
+def addition(n): 
+	return n + n 
+
+# We double all numbers using map() 
+numbers = (1, 2, 3, 4) 
+result = map(addition, numbers) 
+print(list(result)) 
+
+
+---------
+
+def calculateSquare(n):
+    return n*n
+
+
+numbers = (1, 2, 3, 4)
+result = map(calculateSquare, numbers)
+print(result)
+
+# converting map object to set
+numbersSquare = set(result)
+print(numbersSquare)
+--
+Output
+
+<map object at 0x7f722da129e8>
+{16, 1, 4, 9}
+
+---------------------
+N,M = map(int,input().split()) #convert string to math
+print(type(N))
+print(type(M))

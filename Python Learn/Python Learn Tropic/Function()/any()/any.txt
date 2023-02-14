@@ -1,0 +1,6 @@
+Python any() function accepts iterable (list, tuple, dictionary etc.) as an argument and return true if any of the element in iterable is true, else it returns false. If iterable is empty then any() method returns false.
+
+Parameters for the any() function
+The any() function takes an iterable (list, string, dictionary etc.) in Python.
+
+The any() function returns True if any element of an iterable is True. If not, any() returns False.

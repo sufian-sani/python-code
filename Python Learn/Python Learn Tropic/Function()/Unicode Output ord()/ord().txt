@@ -1,0 +1,21 @@
+The ord() function in Python accepts a string of length 1 as an argument and returns the unicode code point representation of the passed argument. For example ord('B') returns 66 which is a unicode code point value of character ‘B’. In this tutorial, we will discuss the ord() function with the help of examples.
+
+Note: The first 128 Unicode code point values are the same as ASCII
+
+Python ord() function Example
+In the following example we are finding the unicode code point values of an integer, a character and a special character. The first 128 unicode code points are same as ASCII values which means the unicode code points are same as the ASCII values of these passed strings of length 1.
+
+-------------
+# unicode code point of integer
+print("The ASCII value of 9 is",ord('9'))
+
+# unicode code point of alphabet
+print("The ASCII value of B is",ord('B'))
+
+# unicode code point of special character
+print("The ASCII value of ! is",ord('!'))
+
+output:
+The ASCII value of 9 is 57
+The ASCII value of B is 66
+The ASCII value of ! is 33

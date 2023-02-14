@@ -1,0 +1,11 @@
+textwrap.wrap(text, width=70, **kwargs)
+
+textwrap.fill(text, width=70, **kwargs)
+
+textwrap.shorten(text, width, **kwargs)
+
+textwrap.dedent(text)
+
+textwrap.indent(text, prefix, predicate=None)
+
+more..

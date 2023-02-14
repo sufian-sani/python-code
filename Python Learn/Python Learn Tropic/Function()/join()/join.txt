@@ -1,0 +1,6 @@
+>>> a = "this is a string"
+>>> a = "-".join(a)
+>>> print a
+
+Output:
+this-is-a-string 

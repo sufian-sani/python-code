@@ -1,0 +1,57 @@
+# hash for integer unchanged
+print('Hash for 181 is:', hash(181))
+
+# hash for decimal
+print('Hash for 181.23 is:',hash(181.23))
+
+# hash for string
+print('Hash for Python is:', hash('Python'))
+
+Output:
+Hash for 181 is: 181
+Hash for 181.23 is: 530343892119126197
+Hash for Python is: 2230730083538390373 
+
+
+--------
+
+# tuple of vowels
+vowels = ('a', 'e', 'i', 'o', 'u')
+
+print('The hash is:', hash(vowels))
+
+Output:
+The hash is: -695778075465126279
+
+
+------------
+
+>>> hash(2)
+2
+
+>>> hash(2.00)
+2
+
+>>> hash('Python')
+397710083
+
+>>> hash(5+5j)
+5000020
+
+>>> #using hash function for tuple
+>>> hash((1,2,3,4))
+89902565
+
+>>> #using hash function for list
+>>> hash([1,2,3,4])
+Traceback (most recent call last):
+ File "<pyshell#11>", line 1, in <module>
+ hash([1,2,3,4])
+TypeError: unhashable type: 'list'
+
+>>> #using hash function for set
+>>> hash({1,2,3,4})
+Traceback (most recent call last):
+ File "<pyshell#12>", line 1, in <module>
+ hash({1,2,3,4})
+TypeError: unhashable type: 'set'

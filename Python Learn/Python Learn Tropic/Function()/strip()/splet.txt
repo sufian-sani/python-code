@@ -1,0 +1,7 @@
+Q: what does input().strip().split(' ')  in python means?
+
+A: 
+input() - takes input from user
+strip() - deletes white spaces from the begin and the end of input
+split(' ') - splits input into elements of an list with (' ') being as separator.
+

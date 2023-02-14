@@ -1,0 +1,17 @@
+input = input("Enter any number of your choice:")
+print(input)
+print(type(input))
+--------------------------------------------------------------------
+Enter any number of your choice: 10 + 10 
+10 + 10 
+<class 'str'>
+
+-------------
+
+eval = eval(input("Enter any number of your choice"))
+print(eval)
+print(type(eval))
+--------------------------------------------------------------------
+Enter any number of your choice: 10 + 10 
+20 
+<class 'int'>

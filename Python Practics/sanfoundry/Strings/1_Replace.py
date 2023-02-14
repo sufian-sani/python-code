@@ -1,0 +1,5 @@
+string=input('Take String: ')
+string=string.replace('A','$')
+string=string.replace('a','$')
+print('Modifited List:')
+print(string)

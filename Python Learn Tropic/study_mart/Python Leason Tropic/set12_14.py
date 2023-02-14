@@ -1,0 +1,6 @@
+s1 = set([1,2,3,4,5])
+# s2 = s1.add(6)
+# s2 = s1.update([6,7,8,9])
+# s1.remove(1)
+s1.discard(1)
+print(s1)
